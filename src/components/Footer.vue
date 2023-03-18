@@ -16,10 +16,11 @@
       </i></a
     >
     <div class="navbar2">
-      <a href="about.html">A propos</a>
-      <a href="pannier.html">pannier</a>
-      <a href="shop.html">shop</a>
-      <a href="contact.html">contacts</a>
+      <NuxtLink to="/">Accueil</NuxtLink>
+      <NuxtLink to="/shop">Shop</NuxtLink>
+      <NuxtLink to="/cart">Panier</NuxtLink>
+      <NuxtLink to="/about">A propos</NuxtLink>
+      <NuxtLink to="/contact">Contact</NuxtLink>
     </div>
     <div class="share-2">
       <a href=""><i class="fab fa-facebook"></i></a>
