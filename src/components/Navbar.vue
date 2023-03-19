@@ -92,7 +92,6 @@
       <p>
         vous n'avez pas de compte?<a href="inscription.html">cree un compte?</a>
       </p>
-      <Login />
     </form>
   </header>
 </template>

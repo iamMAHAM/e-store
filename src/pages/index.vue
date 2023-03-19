@@ -44,159 +44,13 @@
       ></a>
     </div>
   </div>
-  <div class="box-container">
-    <div class="box">
-      <i class="fa-solid fa-shop"></i>
-      <h3>+20</h3>
-      <p>Boutiques</p>
-    </div>
-
-    <div class="box">
-      <i class="fa-solid fa-people-group"></i>
-      <h3>+150 000 000</h3>
-      <p>Clients</p>
-    </div>
-
-    <div class="box">
-      <i class="fa-solid fa-cart-plus"></i>
-      <h3>+800 000 000</h3>
-      <p>Articles</p>
-    </div>
-
-    <div class="box">
-      <i class="fa-solid fa-building-shield"></i>
-      <h3>1500+</h3>
-      <p>partenaire</p>
-    </div>
-  </div>
+  <HomeList />
   <section
     class="services"
     id="services"
   >
     <h1 class="heading">Nos catégories</h1>
-
-    <div class="box-container">
-      <div class="box">
-        <a href="categorie.html">
-          <img
-            src="images/basket.webp"
-            alt=""
-        /></a>
-        <h3>Sport</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima,
-          animi?
-        </p>
-      </div>
-
-      <div class="box">
-        <img
-          src="images/habit.png"
-          alt=""
-        />
-        <h3>Vêtement's</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima,
-          animi?
-        </p>
-      </div>
-
-      <div class="box">
-        <img
-          src="images/materiel-info.png"
-          alt=""
-        />
-        <h3>Appareils informatique</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima,
-          animi?
-        </p>
-      </div>
-
-      <div class="box">
-        <img
-          src="images/smart.png"
-          alt=""
-        />
-        <h3>Smartphones</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima,
-          animi?
-        </p>
-      </div>
-
-      <div class="box">
-        <img
-          src="images/powerbank.png"
-          alt=""
-        />
-        <h3>Powerbank</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima,
-          animi?
-        </p>
-      </div>
-
-      <div class="box">
-        <img
-          src="images/accessoire.png"
-          alt=""
-        />
-        <h3>Accessoires</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima,
-          animi?
-        </p>
-      </div>
-
-      <div class="box">
-        <img
-          src="images/casque.png"
-          alt=""
-        />
-        <h3>casques</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima,
-          animi?
-        </p>
-      </div>
-
-      <div class="box">
-        <img
-          src="images/ecouteur.png"
-          alt=""
-        />
-        <h3>Ecouteurs</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima,
-          animi?
-        </p>
-      </div>
-
-      <div class="box">
-        <img
-          src="images/chargeur.png"
-          alt=""
-        />
-        <h3>Chargeurs</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima,
-          animi?
-        </p>
-      </div>
-
-      <div class="box">
-        <img
-          src="images/montre.png"
-          alt=""
-        />
-        <h3>montre</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima,
-          animi?
-        </p>
-      </div>
-    </div>
+    <CategoryList />
   </section>
   <section
     class="arrivals"
@@ -204,120 +58,14 @@
   >
     <h1 class="heading">Shop <span>New </span> Arrivage</h1>
 
-    <div class="box-container">
-      <div class="box">
-        <div class="image">
-          <a href="shop.html">
-            <img
-              src="images/telephone-2.png"
-              class="main-img"
-              alt="" />
-            <img
-              src="images/telephone.png"
-              class="hover-img"
-              alt=""
-          /></a>
-        </div>
-        <div class="content">
-          <h3>Telephone</h3>
-          <div class="price">120$<span>450$</span></div>
-          <div class="starts">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-        </div>
-      </div>
-
-      <div class="box">
-        <div class="image">
-          <a href="shop.html">
-            <img
-              src="images/maillot.webp"
-              class="main-img"
-              alt="" />
-            <img
-              src="images/maillot-2.png"
-              class="hover-img"
-              alt=""
-          /></a>
-        </div>
-        <div class="content">
-          <h3>Malliot</h3>
-          <div class="price">20£<span>50£</span></div>
-          <div class="starts">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-        </div>
-      </div>
-
-      <div class="box">
-        <div class="image">
-          <a href="shop.html">
-            <img
-              src="images/ordinateur.png"
-              class="main-img"
-              alt="" />
-            <img
-              src="images/ordi.png"
-              class="hover-img"
-              alt=""
-          /></a>
-        </div>
-        <div class="content">
-          <h3>Ordinateur</h3>
-          <div class="price">100£<span>450£</span></div>
-          <div class="starts">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-        </div>
-      </div>
-
-      <div class="box">
-        <div class="image">
-          <a href="shop.html"
-            ><img
-              src="images/bracelet.png"
-              class="main-img"
-              alt="" />
-            <img
-              src="images/bracelet-2.png"
-              class="hover-img"
-              alt=""
-          /></a>
-        </div>
-        <div class="content">
-          <h3>Bracelets</h3>
-          <div class="price">10£<span>40£</span></div>
-          <div class="starts">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-    <a
-      href="shop.html"
+    <ProductList />
+    <NuxtLink
+      to="/shop"
       class="btn"
-      >Voir Plus</a
+      >Voir Plus</NuxtLink
     >
   </section>
 </template>
-
-<script setup lang="ts"></script>
 
 <style scoped>
 .box {
@@ -325,14 +73,6 @@
 }
 
 .box-container {
-  /*
-    margin-top: 3rem;
-    display: grid;
-    gap: 3rem;
-    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-    align-items: flex-end;
-*/
-
   display: grid;
   gap: 3rem;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -340,41 +80,7 @@
   padding-bottom: 10rem;
   padding-right: 2rem;
 }
-.box {
-  /*
-    text-align: center;
-    background: var(--light-bg);
-    padding: 4rem 3rem;
-*/
-  border: var(--main-color);
-  box-shadow: var(--box-shadow);
-  border-radius: 0.5rem;
-  text-align: center;
-  padding: 3.5rem;
-}
-.box-container .box:hover {
-  transform: scale(1.1);
-}
-.box-container .box i {
-  font-size: 2rem;
-  color: var(--main);
-  padding-bottom: 0.7rem;
-}
 
-.box h3 {
-  font-size: 3rem;
-  color: var(--black);
-  padding: 0.5rem 0;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-.box p {
-  color: var(--black);
-  text-transform: capitalize;
-  line-height: 1.5;
-  font-size: 2rem;
-  padding-top: 0.5rem;
-}
 .video {
   width: 20px;
 }
@@ -434,37 +140,6 @@
 
 .services {
   background: var(--light-bg);
-}
-
-.services .box-container {
-  display: grid;
-  gap: 3rem;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-}
-.services .box-container .box {
-  text-align: center;
-  padding: 3rem;
-  background: var(--white);
-  box-sizing: var(--box-shadow);
-}
-.services .box-container .box:hover img {
-  transform: translateY(-1rem);
-}
-.services .box-container .box img {
-  height: 7rem;
-  margin-bottom: 0.5rem;
-}
-.services .box-container .box h3 {
-  padding: 1rem 0;
-  color: var(--black);
-  text-transform: capitalize;
-  font-size: 2rem;
-}
-.services .box-container .box p {
-  color: var(--black);
-  text-transform: capitalize;
-  font-size: 1.5rem;
-  padding-top: 0.5rem;
 }
 
 .arrivals .box-container {

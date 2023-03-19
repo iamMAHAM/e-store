@@ -12,7 +12,7 @@
       href="index.html"
       class="logo"
       ><i class="fas fa-store"
-        ><span> <b>COl</b> Boutique's</span>
+        ><span> <b>E</b> Store</span>
       </i></a
     >
     <div class="navbar2">

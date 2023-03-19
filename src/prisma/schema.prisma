@@ -1,0 +1,27 @@
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  fullname String 
+  username String @unique
+  password String
+  isAdmin Boolean
+}
+
+model Product {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  title String
+  description String
+  images String[]
+  price Int
+}
+
+model Category {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  title String
+  description String
+  image String
+}

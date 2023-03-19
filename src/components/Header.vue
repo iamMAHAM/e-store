@@ -7,8 +7,10 @@
       <div class="swiper home-slide">
         <div class="swiper-wrapper">
           <section
-            class="swiper-slide slide"
-            style="background: url(../assets/landing.jpg) no-repeat"
+            class="slide"
+            style="
+              background: url(https://source.unsplash.com/random?bg) no-repeat;
+            "
           >
             <div class="content">
               <h3>bienvenu Dans la Boutique COL</h3>
