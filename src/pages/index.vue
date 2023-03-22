@@ -1,5 +1,9 @@
 <template>
   <Header />
+  <img
+    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+    alt=""
+  />
   <div class="contact-info">
     <div
       id="close-contact-info"
