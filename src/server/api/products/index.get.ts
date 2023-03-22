@@ -1,12 +1,14 @@
+import { PRODUCT_PER_PAGE } from '~~/src/utils/contants';
+import { prisma } from '@@/src/utils/client';
+
 export default defineEventHandler(async (event) => {
-  const userId = event.context.params?.id;
+  const { page = '1' } = getQuery(event);
   const products = await prisma.product.findMany({
-    where: {
-      id: userId,
-    },
+    skip:
+      (parseInt((parseInt(page as string) - 1).toString()) || 0) *
+      PRODUCT_PER_PAGE,
+    take: PRODUCT_PER_PAGE,
   });
-  return {
-    status: true,
-    message: products,
-  };
+  const allDocs = await prisma.product.count();
+  return { products, total: allDocs };
 });

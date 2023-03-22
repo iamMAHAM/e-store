@@ -1,3 +1,5 @@
+import { prisma } from '@@/src/utils/client';
+
 export default defineEventHandler(async (event) => {
   const productId = event.context.params?.id;
   const product = await prisma.product.findUnique({

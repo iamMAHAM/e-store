@@ -1,10 +1,16 @@
 <template>
   <div class="box-container">
-    <CategoryCard v-for="i in [...Array(6).keys()]" />
+    <CategoryCard
+      v-for="category in categories"
+      :category="category"
+      :key="category.id"
+    />
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const { data: categories } = await useFetch('/api/category');
+</script>
 
 <style scoped>
 .box-container {

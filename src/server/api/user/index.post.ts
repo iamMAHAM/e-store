@@ -1,4 +1,5 @@
 import { User } from '@prisma/client';
+import { prisma } from '@@/src/utils/client';
 
 export default defineEventHandler(async (event) => {
   const data: User = await readBody(event);

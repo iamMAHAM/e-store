@@ -1,17 +1,21 @@
 <template>
   <div class="box">
     <img
-      src="https://source.unsplash.com/random?sport"
-      alt=""
+      :src="category.image"
+      :alt="category.title"
     />
-    <h3>Accessoires</h3>
+    <h3>{{ category.title }}</h3>
     <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, animi?
+      {{ category.description }}
     </p>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { Category } from '.prisma/client';
+
+const { category } = defineProps<{ category: Category }>();
+</script>
 
 <style scoped>
 .box {

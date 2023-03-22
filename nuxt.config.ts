@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   typescript: {
     strict: true,
   },
+  vite: { server: { hmr: { clientPort: 24600, port: 24600 } } },
   srcDir: 'src/',
   alias: {
     '@': '/<rootDir>',

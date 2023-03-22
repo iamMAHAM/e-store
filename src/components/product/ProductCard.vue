@@ -2,12 +2,12 @@
   <div class="box">
     <div class="image">
       <img
-        src="https://source.unsplash.com/random"
+        :src="product.image"
         class="main-img"
-        alt=""
+        :alt="product.title"
       />
       <img
-        src="https://source.unsplash.com/random?infor"
+        :src="product.image"
         class="hover-img"
         alt=""
       />
@@ -32,23 +32,27 @@
     </div>
 
     <div class="content">
-      <h3 class="nom">Smartphones</h3>
+      <h3 class="nom">{{ product.title }}</h3>
       <div class="price">
-        345£
+        {{ product.price }} FCFA
         <!--<span> 450£</span>-->
       </div>
-      <div class="stars">
+      <!-- <div class="stars">
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-star-half-alt"></i>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { Product } from '.prisma/client';
+
+const { product } = defineProps<{ product: Product }>();
+</script>
 
 <style scoped>
 .box {

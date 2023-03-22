@@ -25,6 +25,7 @@
     "typescript": "^5.0.2"
   },
   "dependencies": {
-    "@prisma/client": "^4.11.0"
+    "@prisma/client": "^4.11.0",
+    "vue-awesome-paginate": "^1.1.46"
   }
 }

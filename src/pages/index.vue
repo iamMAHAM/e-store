@@ -62,12 +62,13 @@
   >
     <h1 class="heading">Shop <span>New </span> Arrivage</h1>
 
-    <ProductList />
+    <!-- <ProductList /> -->
     <NuxtLink
       to="/shop"
       class="btn"
-      >Voir Plus</NuxtLink
     >
+      Voir Plus
+    </NuxtLink>
   </section>
 </template>
 
