@@ -8,16 +8,16 @@ datasource db {
 }
 
 model Category {
-  id          String @id @default(auto()) @map("_id") @db.ObjectId
+  id          String    @id @default(auto()) @map("_id") @db.ObjectId
   description String
   image       String
   title       String
-  products Product[]
+  products    Product[]
 }
 
 model Product {
-  id         String @id @default(auto()) @map("_id") @db.ObjectId
-  categoryId String @db.ObjectId
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
+  categoryId String   @db.ObjectId
   category   Category @relation(fields: [categoryId], references: [id])
   image      String
   price      Int
